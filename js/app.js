@@ -28,3 +28,7 @@ window.addEventListener("load", () =>{
         });
       };
     });
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.modal');
+      var instances = M.Modal.init(elems, {});
+    });

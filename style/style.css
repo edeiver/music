@@ -8,7 +8,6 @@
   body {
     font-family: "Raleway", sans-serif;
   }
-  
   .app {
     min-height: 100vh;
     display: flex;
@@ -61,8 +60,7 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    transform: scale(1);
-    z-index: -1;
+    transform: scale(1);   
   }
   
   @keyframes jump {
@@ -80,3 +78,51 @@
       left: 80%;
     }
   }
+  .info{
+    background-image: url('../img/music.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    padding: 8px;
+    margin: 0 0 20px 0  ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .btn{
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 20px 30px;
+    border: none;
+    color: white;
+    
+  
+  }
+  .btn-colorBlue{
+    position: absolute;
+    z-index: 1;
+    overflow: auto;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    
+  }
+  .btn-colorGreen{
+    background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+.btn-colorPink{
+  background-color: #FEE140;
+background-image: linear-gradient(225deg, #FEE140 0%, #FA709A 100%);
+}
+.img{
+  padding: 20px;
+}
+header{
+  background-image: url('../img/music-and-sound-focus-hero.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  color: white;
+  text-align: center;
+}
